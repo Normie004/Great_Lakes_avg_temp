@@ -1,3 +1,4 @@
+
 # Great Lakes Temperature Analysis (2022 & 2020)
 
 ## 📄 Description
@@ -29,14 +30,23 @@ The program performs the following operations:
 
 ### Question 5:
 
+* Computes **average summer (June 20 – Sept 21)** temperatures for each lake.
 
-## 🧠 How It Works
+### Question 6:
 
-1. The program reads daily temperature data into arrays for each lake.
-2. It performs necessary statistical calculations (min, max, average).
-3. Dates are converted from day numbers (1–365) to MM-DD format using the `dayConversion2022()` function.
-4. Seasonal analysis is done using index ranges (e.g., days 171–264 for summer).
-5. Data from both years is compared to track changes in lake temperatures.
+* Computes **average winter (Dec 20 – Mar 20)** temperatures for each lake.
+
+### Question 7:
+
+* Counts the number of **swimming days** (days with temperatures > 20°C) for each lake.
+
+### Question 8:
+
+* Counts the number of **frozen days** (temperatures < 0°C) for each lake.
+
+### Question 9:
+
+* Compares **2022 and 2020 average temperatures** for each lake and reports the **differences** in a tabular format.
 
 
 
